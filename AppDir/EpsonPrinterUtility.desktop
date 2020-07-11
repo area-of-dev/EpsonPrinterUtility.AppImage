@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Epson Printer Utility
+GenericName=Epson Printer Utility
+Comment=Epson printer utilities allow you to check the current printer status and perform certain maintenance procedures from your computer.
+Exec=AppRun
+Terminal=false
+Type=Application
+Icon=EpsonPrinterUtility
+Categories=Printing;HardwareSettings;Settings;
+StartupNotify=false
