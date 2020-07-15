@@ -20,7 +20,7 @@ PWD := $(shell pwd)
 
 
 all: clean
-	wget --output-document=build.rpm https://download3.ebz.epson.net/dsc/f/03/00/11/33/93/87615b79f97e274e65e2ec63619da9c8c19f05fb/epson-printer-utility-1.1.1-1lsb3.2.x86_64.rpm
+	wget --user-agent="Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)" --output-document=build.rpm https://download3.ebz.epson.net/dsc/f/03/00/11/33/93/87615b79f97e274e65e2ec63619da9c8c19f05fb/epson-printer-utility-1.1.1-1lsb3.2.x86_64.rpm
 	rpm2cpio build.rpm | cpio -idmv
 
 	wget --output-document=build.rpm http://mirror.centos.org/centos/7/os/x86_64/Packages/qt-4.8.7-8.el7.x86_64.rpm
